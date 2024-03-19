@@ -1,0 +1,54 @@
+#sm-banner{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#sm-banner .banner-box:nth-child(1){
+    background: url(../img/img1.jpg) center/cover;
+    height: 50vh;
+    min-width: 47%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+}
+#sm-banner .banner-box:nth-child(2){
+    background: url(../img/img5.jpg) center/cover;
+    height: 50vh;
+    min-width: 47%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+#sm-banner .banner-box h4{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#sm-banner .banner-box h2{
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+#sm-banner .banner-box span{
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+#sm-banner .banner-box:hover button{
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+#sm-banner .banner-box:nth-child(2){
+    background: url(../img/banner/b10\ \(1\).jpg);
+}
